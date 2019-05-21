@@ -9,3 +9,12 @@ end
 
 binding.pry
 0 #leave this here to ensure binding.pry isn't the last line
+
+yo_sushi = Restaurant.new("yo_sushi")
+rori = Customer.new("rori", "hinds")
+rori.add_review(yo_sushi)
+# rori.all_reviews
+rori.reviewed_resturaunts
+# yo_sushi.customers
+# yo_sushi.reviews
+yo_sushi.average_star_rating
